@@ -1,5 +1,43 @@
+html {
+  font-size: 62.5%;
+}
 
-.header {
-  height: 700px;
+.wrap {
+  padding-top: 10px;
   background-image: url(../img/main.png);
 }
+
+.hero {
+  background-image: url(../img/main.png);
+  background-size: contain;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 95px; 
+  background-color: #fff;  
+}
+
+.siteTitle {
+  font-size: 24px;
+  font-size: 2.4rem;
+  color: #777;
+}
+
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+}
+
+.headerNav__item {
+  text-decoration: none;
+  font-size: 13px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #777;
+}
+
